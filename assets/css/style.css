@@ -8,6 +8,7 @@ body {
   background-color: #d9dcd6;
 }
 
+/* Updated header section*/
 header {
   padding: 20px;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
@@ -70,19 +71,22 @@ p {
   margin-left: 25px;
 }
 
+section {
+  display: flex;
+}
+
 .content {
   width: 75%;
   display: inline-block;
   margin-left: 20px;
-  float: left;
 }
 
 /* Updated benefits section*/
 .benefits {
   margin-right: 20px;
+  margin-left: 20px;
   padding: 20px;
   clear: both;
-  float: right;
   width: 20%;
   height: 100%;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
@@ -124,6 +128,7 @@ p {
   font-size: 36px;
 }
 
+/* Updated footer section*/
 footer {
   padding: 30px;
   clear: both;
